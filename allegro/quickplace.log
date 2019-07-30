@@ -1,0 +1,40 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    QUICKPLACE LOG                                                   )
+(                                                                     )
+(    Drawing          : EX1.brd                                       )
+(    Software Version : 17.2P028                                      )
+(    Date/Time        : Tue Jul 30 13:55:04 2019                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+State: Placing on layer TOP
+
+         Placed symbol:  U2 / LF356_3_DIP8_3_LF356 / DIP8_3 at (3.524 106.684)
+         Placed symbol:  U4 / LF356_3_DIP8_3_LF356 / DIP8_3 at (13.938 106.684)
+         Placed symbol:  U5 / LF356_3_DIP8_3_LF356 / DIP8_3 at (24.352 106.684)
+         Placed symbol:  U3 / LF111_2_DIP8_3_LF398 / DIP8_3 at (34.766 106.684)
+         Placed symbol:  U1 / NE555_1_DIP8_3_NE555 / DIP8_3 at (45.180 106.684)
+         Placed symbol:  VR2 / POT_RESADJ_20K / RESADJ at (58.134 103.992)
+         Placed symbol:  VR1 / POT_RESADJ_5K / RESADJ at (63.468 103.992)
+         Placed symbol:  Q1 / 2SA1020_TO92_2SA1015 / TO92 at (66.488 99.801)
+         Placed symbol:  R1 / R_RES400_560 / RES400 at (72.632 98.975)
+         Placed symbol:  R2 / R_RES400_39K / RES400 at (76.010 98.975)
+         Placed symbol:  C3 / CAP NP_CAPCK05_0.01UF / CAPCK05 at (78.804 99.064)
+         Placed symbol:  R4 / R_RES400_100K / RES400 at (82.182 98.975)
+         Placed symbol:  D1 / DIODE_DO41_1S1588 / DO41 at (85.230 98.937)
+         Placed symbol:  R5 / R_RES400_10K / RES400 at (88.862 98.975)
+         Placed symbol:  R7 / R_RES400_10K / RES400 at (92.240 98.975)
+         Placed symbol:  R8 / R_RES400_10K / RES400 at (95.618 98.975)
+         Placed symbol:  R9 / R_RES400_10K / RES400 at (4.108 111.751)
+         Placed symbol:  C2 / CAP NP_CAPCK05_0.01UF / CAPCK05 at (6.902 111.840)
+         Placed symbol:  C1 / CAP NP_CAPCK05_0.01UF / CAPCK05 at (9.696 111.840)
+         Placed symbol:  R6 / R_RES400_10K / RES400 at (13.074 111.751)
+         Placed symbol:  R3 / R_RES400_6.2K / RES400 at (16.452 111.751)
+
+
+Placed 21 of 21 applicable (21 total) symbols.
+
+-----------------------------------------------------------------------
+

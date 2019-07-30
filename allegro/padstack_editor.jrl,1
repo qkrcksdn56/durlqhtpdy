@@ -1,0 +1,13 @@
+\t (00:00:00) padstack_editor 17.2 P019 Windows SPB 64-bit Edition
+\t (00:00:00)     Journal start - Tue Jul 30 12:33:17 2019
+\t (00:00:00)         Host=USER-PC User=user Pid=10072 CPUs=4
+\t (00:00:00) CmdLine= padstack_editor -mpssession user -file ./#Taaaaaf05112.tmp -pname PAD125 -data C:/Users/user/AppData/Local/Temp/#Taaaaah05112.tmp
+\t (00:00:00) 
+\d (00:00:02) QtSignal GuidedTabsParent GuidedTabs currentChanged "Drill Offset"
+\d (00:00:03) QtSignal GuidedTabsParent GuidedTabs currentChanged "Drill Symbol"
+\d (00:00:11) QtSignal GuidedDrillSymbol FigureWidth editingFinished 3.000
+\d (00:00:12) QtSignal GuidedDrillSymbol FigureHeight editingFinished 3.000
+\d (00:00:16) QtSignal GuidedTabsParent GuidedDrillSymbol keyPressEvent 16777249 67108864 false +
+\d (00:00:16) QtSignal 1
+\d (00:00:19) QtFillin No
+\t (00:00:20)     Journal end - Tue Jul 30 12:33:36 2019

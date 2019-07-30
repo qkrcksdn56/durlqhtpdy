@@ -1,0 +1,92 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Allegro Netrev Import Logic                                      )
+(                                                                     )
+(    Drawing          : EX1.brd                                       )
+(    Software Version : 17.2P019                                      )
+(    Date/Time        : Tue Jul 30 15:48:32 2019                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+------ Directives ------------
+
+Ripup etch:                  No
+Ripup delete first segment:  No
+Ripup retain bondwire:       No
+Ripup symbols:               Always
+Missing symbol has error:    No
+DRC update:                  Yes
+Schematic directory:         'C:\WORK\allegro'
+Design Directory:            '.'
+Old design name:             'C:/WORK/allegro/EX1.brd'
+New design name:             'C:/WORK/allegro/EX1.brd'
+
+CmdLine: netrev.exe -y 1 -i C:\WORK\allegro C:\WORK\allegro\EX1.brd C:\WORK\allegro\EX1.brd
+
+------ Preparing to read pst files ------
+
+Starting to read C:/WORK/allegro/pstchip.dat 
+   Finished reading C:/WORK/allegro/pstchip.dat (00:00:00.03)
+Starting to read C:/WORK/allegro/pstxprt.dat 
+   Finished reading C:/WORK/allegro/pstxprt.dat (00:00:00.00)
+Starting to read C:/WORK/allegro/pstxnet.dat 
+   Finished reading C:/WORK/allegro/pstxnet.dat (00:00:00.00)
+
+------ Oversights/Warnings/Errors ------
+
+
+------ Library Paths ------
+MODULEPATH =  . 
+           C:/Cadence/SPB_17.2/share/local/pcb/modules 
+
+PSMPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           C:/Cadence/SPB_17.2/share/local/pcb/symbols 
+           C:/Cadence/SPB_17.2/share/pcb/pcb_lib/symbols 
+           C:/Cadence/SPB_17.2/share/pcb/allegrolib/symbols 
+           C:/USERS/USER/DESKTOP/WORKSPACE/PCB_LIE/PSM/ 
+
+PADPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           C:/Cadence/SPB_17.2/share/local/pcb/padstacks 
+           C:/Cadence/SPB_17.2/share/pcb/pcb_lib/symbols 
+           C:/Cadence/SPB_17.2/share/pcb/allegrolib/symbols 
+           C:/USERS/USER/DESKTOP/WORKSPACE/PCB_LIE/psm/ 
+
+
+------ Summary Statistics ------
+
+
+netrev run on Jul 30 15:48:32 2019
+   DESIGN NAME : 'EX1'
+   PACKAGING ON Mar  2 2016 00:37:24
+
+   COMPILE 'logic'
+   CHECK_PIN_NAMES OFF
+   CROSS_REFERENCE OFF
+   FEEDBACK OFF
+   INCREMENTAL OFF
+   INTERFACE_TYPE PHYSICAL
+   MAX_ERRORS 500
+   MERGE_MINIMUM 5
+   NET_NAME_CHARS '#%&()*+-./:=>?@[]^_`|'
+   NET_NAME_LENGTH 24
+   OVERSIGHTS ON
+   REPLACE_CHECK OFF
+   SINGLE_NODE_NETS ON
+   SPLIT_MINIMUM 0
+   SUPPRESS   20
+   WARNINGS ON
+
+ No error detected
+ No oversight detected
+ No warning detected
+
+cpu time      0:00:29
+elapsed time  0:00:00
+
