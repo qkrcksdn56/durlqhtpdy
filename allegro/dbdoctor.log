@@ -2,14 +2,12 @@
 (                                                                     )
 (    DBDOCTOR                                                         )
 (                                                                     )
-(    Drawing          : EX1.brd                                       )
+(    Drawing          : EX2.brd                                       )
 (    Software Version : 17.2P028                                      )
-(    Date/Time        : Tue Jul 30 16:20:37 2019                      )
+(    Date/Time        : Wed Jul 31 12:13:05 2019                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
 
 
-WARNING:   WARNING(SPMHDB-42): Run batch DRC to regenerate DRC errs.
-
-1 warnings, 0 errors detected, 0 errors could be fixed.
+0 warnings, 0 errors detected, 0 errors could be fixed.

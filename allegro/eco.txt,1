@@ -2,46 +2,20 @@
 |                                 ECO   REPORT                                 |
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
-|  C:/WORK/allegro/EX1.brd                                                     |
-|                                                    Tue Jul 30 11:37:31 2019  |
+|  C:/WORK/allegro/EX2.brd                                                     |
+|                                                    Wed Jul 31 10:41:42 2019  |
 |------------------------------------------------------------------------------|
-| COMPONENT DEFINITION added to design                                         |
+| NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    device type                                                               |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- LF356_3_DIP8_3_LF356
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   2  |
+  N02102       pins ADDED TO this existing net (pins not previously on any net)
+                                 R10.1            61.358  69.384
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  OUT          pins ADDED TO this existing net (pins not previously on any net)
+                                 R11.1            12.870  82.109
 |------------------------------------------------------------------------------|
-|  C:/WORK/allegro/EX1.brd                                                     |
-|                                                    Tue Jul 30 11:37:31 2019  |
-|------------------------------------------------------------------------------|
-| COMPONENTS CHANGED from one device type to another in design                 |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    ref des        | new device type     |   x   |   y   |  old  device type  |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- U2                  LF356_3_DIP8_3_LF356                  LF356_3_DIP8_3_LF356
- U4                  LF356_3_DIP8_3_LF356                  LF356_3_DIP8_3_LF356
- U5                  LF356_3_DIP8_3_LF356                  LF356_3_DIP8_3_LF356
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   3  |
-|------------------------------------------------------------------------------|
-|  C:/WORK/allegro/EX1.brd                                                     |
-|                                                    Tue Jul 30 11:37:31 2019  |
-|------------------------------------------------------------------------------|
-| SLOT PROPERTIES added to design                                              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   slot_id    |   x   |   y   |   property   |             value              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- U2.4                           PRIM_FILE      .\pstchip.dat
- U4.4                           PRIM_FILE      .\pstchip.dat
- U5.4                           PRIM_FILE      .\pstchip.dat
-|------------------------------------------------------------------------------|
-|       Comp definitions added:       1                                        |
-|       Components changed    :       3                                        |
-|       Slot property added   :       3                                        |
+|       Nets changed          :       2                                        |
 |                                                                              |
-|   Total ECO changes reported:       7                                        |
+|   Total ECO changes reported:       2                                        |
 |------------------------------------------------------------------------------|

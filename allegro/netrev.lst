@@ -2,9 +2,9 @@
 (                                                                     )
 (    Allegro Netrev Import Logic                                      )
 (                                                                     )
-(    Drawing          : EX1.brd                                       )
+(    Drawing          : EX2.brd                                       )
 (    Software Version : 17.2P019                                      )
-(    Date/Time        : Tue Jul 30 15:48:32 2019                      )
+(    Date/Time        : Wed Jul 31 12:13:53 2019                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -19,10 +19,10 @@ Missing symbol has error:    No
 DRC update:                  Yes
 Schematic directory:         'C:\WORK\allegro'
 Design Directory:            '.'
-Old design name:             'C:/WORK/allegro/EX1.brd'
-New design name:             'C:/WORK/allegro/EX1.brd'
+Old design name:             'C:/WORK/allegro/EX2.brd'
+New design name:             'C:/WORK/allegro/EX2.brd'
 
-CmdLine: netrev.exe -y 1 -i C:\WORK\allegro C:\WORK\allegro\EX1.brd C:\WORK\allegro\EX1.brd
+CmdLine: netrev.exe -y 1 -i C:\WORK\allegro C:\WORK\allegro\EX2.brd C:\WORK\allegro\EX2.brd
 
 ------ Preparing to read pst files ------
 
@@ -62,8 +62,8 @@ PADPATH =  .
 ------ Summary Statistics ------
 
 
-netrev run on Jul 30 15:48:32 2019
-   DESIGN NAME : 'EX1'
+netrev run on Jul 31 12:13:53 2019
+   DESIGN NAME : 'EX2'
    PACKAGING ON Mar  2 2016 00:37:24
 
    COMPILE 'logic'
@@ -87,6 +87,6 @@ netrev run on Jul 30 15:48:32 2019
  No oversight detected
  No warning detected
 
-cpu time      0:00:29
+cpu time      0:00:34
 elapsed time  0:00:00
 

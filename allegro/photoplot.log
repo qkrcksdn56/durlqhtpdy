@@ -2,17 +2,12 @@
 (                                                                     )
 (    ARTWORK LOG                                                      )
 (                                                                     )
-(    Drawing          : EX1.brd                                       )
+(    Drawing          : EX2.brd                                       )
 (    Software Version : 17.2P019                                      )
-(    Date/Time        : Tue Jul 30 16:20:37 2019                      )
+(    Date/Time        : Wed Jul 31 12:13:07 2019                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
-
-
- ******************************************
- WARNING: DRC OUT OF DATE on this layout.
- ******************************************
 
  ---- Photoplot outline rectangle not found; using drawing extents.
 
@@ -51,7 +46,7 @@ Results from parameter file ...
 
 
   APERTURES USED:  NONE
-     SilkBot created with warnings
+     SilkBot created.
 
 
 ================================================================
@@ -82,10 +77,8 @@ Results from parameter file ...
   CIRCLE     1.52400                                  DARK 
   CIRCLE     1.65100                                  DARK 
   SQUARE     1.52400                     0.000 NO     DARK 
-  RECTANGLE  1.01600     x 1.52400      90.000 NO     DARK 
-  OBLONG     1.01600     x 1.52400      90.000 NO     DARK 
 
-     TOP created with warnings
+     TOP created.
 
 
 ================================================================
@@ -116,10 +109,8 @@ Results from parameter file ...
   CIRCLE     1.52400                                  DARK 
   CIRCLE     1.65100                                  DARK 
   SQUARE     1.52400                     0.000 NO     DARK 
-  RECTANGLE  1.01600     x 1.52400      90.000 NO     DARK 
-  OBLONG     1.01600     x 1.52400      90.000 NO     DARK 
 
-     BOTTOM created with warnings
+     BOTTOM created.
 
 
 ================================================================
@@ -151,13 +142,13 @@ Results from parameter file ...
     WARNING: rectangle or unfilled shape having Multiple 0 width lines; all will be treated the same as the first.
            ... ignored.
 
-    WARNING: text composed 0 width line found at (5.406 22.837)
+    WARNING: text composed 0 width line found at (5.279 30.504)
            ... ignored.
 
     WARNING: text having Multiple 0 width lines; all will be treated the same as the first.
            ... ignored.
 
-    WARNING: 0 width line found at (18.796 27.940)
+    WARNING: 0 width line found at (45.720 39.624)
            ... ignored.
 
     WARNING: Multiple 0 width lines; all will be treated the same as the first.
@@ -169,16 +160,12 @@ Results from parameter file ...
   ---------------------------------------------------------
   TYPE       SIZE/NAME                   ROT   MIRROR MODE 
   ---------------------------------------------------------
-  CIRCLE     0.20300                                  DARK 
-  CIRCLE     0.40000                                  DARK 
   CIRCLE     0.50000                                  DARK 
   CIRCLE     0.63500                                  DARK 
   CIRCLE     1.00000                                  DARK 
   CIRCLE     1.52400                                  DARK 
   CIRCLE     1.65100                                  DARK 
   SQUARE     1.52400                     0.000 NO     DARK 
-  RECTANGLE  1.01600     x 1.52400      90.000 NO     DARK 
-  OBLONG     1.01600     x 1.52400      90.000 NO     DARK 
 
      Design created with warnings
 
@@ -206,10 +193,9 @@ Results from parameter file ...
   TYPE       SIZE/NAME                   ROT   MIRROR MODE 
   ---------------------------------------------------------
   CIRCLE     0.20000                                  DARK 
-  CIRCLE     0.20300                                  DARK 
-  CIRCLE     0.40000                                  DARK 
+  CIRCLE     0.50000                                  DARK 
 
-     SilkT created with warnings
+     SilkT created.
 
 
 ================================================================
@@ -231,7 +217,7 @@ Results from parameter file ...
 
 
   APERTURES USED:  NONE
-     SilkB created with warnings
+     SilkB created.
 
 
 ================================================================
@@ -260,10 +246,8 @@ Results from parameter file ...
   CIRCLE     2.03200                                  DARK 
   CIRCLE     3.68300                                  DARK 
   SQUARE     1.90500                     0.000 NO     DARK 
-  RECTANGLE  1.01600     x 1.52400      90.000 NO     DARK 
-  OBLONG     1.01600     x 1.52400      90.000 NO     DARK 
 
-     SolderT created with warnings
+     SolderT created.
 
 
 ================================================================
@@ -292,10 +276,8 @@ Results from parameter file ...
   CIRCLE     2.03200                                  DARK 
   CIRCLE     3.68300                                  DARK 
   SQUARE     1.90500                     0.000 NO     DARK 
-  RECTANGLE  1.01600     x 1.52400      90.000 NO     DARK 
-  OBLONG     1.01600     x 1.52400      90.000 NO     DARK 
 
-     SolderB created with warnings
+     SolderB created.
 
 
 ================================================================
@@ -317,7 +299,7 @@ Results from parameter file ...
 
 
   APERTURES USED:  NONE
-     MetalT created with warnings
+     MetalT created.
 
 
 ================================================================
@@ -339,7 +321,7 @@ Results from parameter file ...
 
 
   APERTURES USED:  NONE
-     MetalB created with warnings
+     MetalB created.
 
 
 ================================================================
@@ -366,21 +348,21 @@ Results from parameter file ...
   ---------------------------------------------------------
   CIRCLE     0.20000                                  DARK 
 
-     DrillDraw created with warnings
+     DrillDraw created.
 
 
 ------------------------------------------------------
  SUMMARY:
-        SilkBot created with warnings
-        TOP created with warnings
-        BOTTOM created with warnings
+        SilkBot created.
+        TOP created.
+        BOTTOM created.
         Design created with warnings
-        SilkT created with warnings
-        SilkB created with warnings
-        SolderT created with warnings
-        SolderB created with warnings
-        MetalT created with warnings
-        MetalB created with warnings
-        DrillDraw created with warnings
+        SilkT created.
+        SilkB created.
+        SolderT created.
+        SolderB created.
+        MetalT created.
+        MetalB created.
+        DrillDraw created.
 
  ARTWORK had warnings

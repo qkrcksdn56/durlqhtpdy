@@ -1,6 +1,6 @@
 FILE_TYPE=LIBRARY_PARTS;
-{ Using PSTWRITER 17.2.0 d001Jul-30-2019 at 15:48:31}
-primitive 'CAP NP_CAPCK05_0.01UF';
+{ Using PSTWRITER 17.2.0 d001Jul-31-2019 at 12:13:53}
+primitive 'CAP NP_CAPCK05_0.001UF';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -12,43 +12,7 @@ primitive 'CAP NP_CAPCK05_0.01UF';
   body
     PART_NAME='CAP NP';
     JEDEC_TYPE='CAPCK05';
-    VALUE='0.01uF';
-  end_body;
-end_primitive;
-primitive 'DIODE_DO41_1S1588';
-  pin
-    'A':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-    'K':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='DIODE';
-    JEDEC_TYPE='DO41';
-    VALUE='1S1588';
-  end_body;
-end_primitive;
-primitive 'CON4_JUMPER4_CON4';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-    '3':
-      PIN_NUMBER='(3)';
-      PINUSE='UNSPEC';
-    '4':
-      PIN_NUMBER='(4)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='CON4';
-    JEDEC_TYPE='JUMPER4';
-    VALUE='CON4';
+    VALUE='0.001uF';
   end_body;
 end_primitive;
 primitive 'CON3_JUMPER3_CON3';
@@ -84,84 +48,6 @@ primitive 'CON2_JUMPER2_CON2';
     VALUE='CON2';
   end_body;
 end_primitive;
-primitive '2SA1020_TO92_2SA1015';
-  pin
-    'C':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-    'B':
-      PIN_NUMBER='(3)';
-      PINUSE='UNSPEC';
-    'E':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='2SA1020';
-    JEDEC_TYPE='TO92';
-    VALUE='2SA1015';
-  end_body;
-end_primitive;
-primitive 'R_RES400_560';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='R';
-    JEDEC_TYPE='RES400';
-    VALUE='560';
-  end_body;
-end_primitive;
-primitive 'R_RES400_39K';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='R';
-    JEDEC_TYPE='RES400';
-    VALUE='39k';
-  end_body;
-end_primitive;
-primitive 'R_RES400_6.2K';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='R';
-    JEDEC_TYPE='RES400';
-    VALUE='6.2k';
-  end_body;
-end_primitive;
-primitive 'R_RES400_100K';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='R';
-    JEDEC_TYPE='RES400';
-    VALUE='100k';
-  end_body;
-end_primitive;
 primitive 'R_RES400_10K';
   pin
     '1':
@@ -177,40 +63,112 @@ primitive 'R_RES400_10K';
     VALUE='10k';
   end_body;
 end_primitive;
-primitive 'NE555_1_DIP8_3_NE555';
+primitive 'R_RES400_8.2K';
   pin
-    'OUT':
-      PIN_NUMBER='(3)';
-      OUTPUT_LOAD='(*)';
-    'RST':
-      PIN_NUMBER='(4)';
-      INPUT_LOAD='(*)';
-    'VCC':
-      PIN_NUMBER='(8)';
-      PINUSE='POWER';
-    'GND':
+    '1':
       PIN_NUMBER='(1)';
-      PINUSE='POWER';
-    'CV':
-      PIN_NUMBER='(5)';
-      INPUT_LOAD='(*)';
-    'TRG':
+      PINUSE='UNSPEC';
+    '2':
       PIN_NUMBER='(2)';
-      INPUT_LOAD='(*)';
-    'THR':
-      PIN_NUMBER='(6)';
-      INPUT_LOAD='(*)';
-    'DSCHG':
-      PIN_NUMBER='(7)';
       PINUSE='UNSPEC';
   end_pin;
   body
-    PART_NAME='NE555_1';
-    JEDEC_TYPE='DIP8_3';
-    VALUE='NE555';
+    PART_NAME='R';
+    JEDEC_TYPE='RES400';
+    VALUE='8.2k';
   end_body;
 end_primitive;
-primitive 'LF356_3_DIP8_3_LF356';
+primitive 'R_RES400_2.2K';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='R';
+    JEDEC_TYPE='RES400';
+    VALUE='2.2k';
+  end_body;
+end_primitive;
+primitive 'R_RES400_5.1K';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='R';
+    JEDEC_TYPE='RES400';
+    VALUE='5.1k';
+  end_body;
+end_primitive;
+primitive 'R_RES400_15K';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='R';
+    JEDEC_TYPE='RES400';
+    VALUE='15k';
+  end_body;
+end_primitive;
+primitive 'R_RES400_20K';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='R';
+    JEDEC_TYPE='RES400';
+    VALUE='20k';
+  end_body;
+end_primitive;
+primitive 'R_RES400_4.7K';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='R';
+    JEDEC_TYPE='RES400';
+    VALUE='4.7k';
+  end_body;
+end_primitive;
+primitive 'R_RES400_1K';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='R';
+    JEDEC_TYPE='RES400';
+    VALUE='1k';
+  end_body;
+end_primitive;
+primitive 'LF356_1_DIP8_3_LF356';
   pin
     '-IN':
       PIN_NUMBER='(2)';
@@ -235,46 +193,13 @@ primitive 'LF356_3_DIP8_3_LF356';
       PINUSE='UNSPEC';
   end_pin;
   body
-    PART_NAME='LF356_3';
+    PART_NAME='LF356_1';
     JEDEC_TYPE='DIP8_3';
     VALUE='LF356';
     NC_PINS='(8)';
   end_body;
 end_primitive;
-primitive 'LF111_2_DIP8_3_LF398';
-  pin
-    '+IN':
-      PIN_NUMBER='(3)';
-      INPUT_LOAD='(*)';
-    '-IN':
-      PIN_NUMBER='(8)';
-      INPUT_LOAD='(*)';
-    'OUT':
-      PIN_NUMBER='(5)';
-      OUTPUT_LOAD='(*)';
-    'BAL':
-      PIN_NUMBER='(2)';
-      INPUT_LOAD='(*)';
-    'BAL/STB':
-      PIN_NUMBER='(7)';
-      INPUT_LOAD='(*)';
-    'V-':
-      PIN_NUMBER='(4)';
-      PINUSE='POWER';
-    'GND':
-      PIN_NUMBER='(6)';
-      PINUSE='POWER';
-    'V+':
-      PIN_NUMBER='(1)';
-      PINUSE='POWER';
-  end_pin;
-  body
-    PART_NAME='LF111_2';
-    JEDEC_TYPE='DIP8_3';
-    VALUE='LF398';
-  end_body;
-end_primitive;
-primitive 'POT_RESADJ_5K';
+primitive 'POT_RESADJ_470K';
   pin
     'A':
       PIN_NUMBER='(1)';
@@ -289,10 +214,10 @@ primitive 'POT_RESADJ_5K';
   body
     PART_NAME='POT';
     JEDEC_TYPE='RESADJ';
-    VALUE='5k';
+    VALUE='470k';
   end_body;
 end_primitive;
-primitive 'POT_RESADJ_20K';
+primitive 'POT_RESADJ_100K';
   pin
     'A':
       PIN_NUMBER='(1)';
@@ -307,7 +232,25 @@ primitive 'POT_RESADJ_20K';
   body
     PART_NAME='POT';
     JEDEC_TYPE='RESADJ';
-    VALUE='20k';
+    VALUE='100k';
+  end_body;
+end_primitive;
+primitive 'POT_RESADJ_10K';
+  pin
+    'A':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    'B':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    'WIPER':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='POT';
+    JEDEC_TYPE='RESADJ';
+    VALUE='10k';
   end_body;
 end_primitive;
 END.

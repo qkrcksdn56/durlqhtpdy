@@ -1,1 +1,1 @@
-EX1.brd
+EX2.brd
